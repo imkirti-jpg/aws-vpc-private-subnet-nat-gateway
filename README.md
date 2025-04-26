@@ -75,6 +75,14 @@ You will design a custom AWS VPC with proper **routing**, **network isolation**,
 -Connect to EC2 from Ubuntu terminal:
 - Connect to private EC2 (via bastion):
 
+### Test and Validate
+- SSH into the public EC2 instance
+- Use it as a jump server to access private EC2 instances
+
+ Validate:
+ - Internet access from private EC2 via NAT Gateway
+ - Security Groups and ACLs blocking/allowing expected traffic
+
 ---
 ## 🎯 Project Outcomes
 
